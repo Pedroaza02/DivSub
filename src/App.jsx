@@ -1,31 +1,50 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './Componentes/navbar/navbar';
+
+import Plataformas from './Componentes/plataforams/plataformas';
+
+import React from 'react';
+
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <header className="App-header">
-       <main>
-        <section className='Section1'>
-        <img src={logo} className="App-logo" alt="logo" />
-        </section>
-        <section className='section2'>Esta es la seccion2</section>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        > </a>
-          <section className='section3'> y esta es la seccion 3
+    <body>
+      <div>
+        <header>
+          <h1>¡Bienvenido a mi página de inicio!</h1>
+          <nav>
+            {<Navbar/>}
+          </nav>
+        </header>
+        <main>
+          <section>
+            <h2>¡Bienvenido!</h2>
+            <p>Esta es la sección principal de mi página.</p>
           </section>
-        
-      
+
+
+          <section>
+            <h2>{<Plataformas/>}</h2>
+            <p>Aquí puedes encontrar información sobre nosotros.</p>
+          </section>
+
+          
+          {/* Otras secciones de la página */}
         </main>
-      </header>
-       
-    </div>
+        <footer>
+          <p>¡Gracias por visitarnos!</p>
+        </footer>
+      </div>
+    </body>
   );
 }
 
 export default App;
+
+
+
+
+
+/*Hace un Navbar primero, le da ciertos detalles
+Despues hace un header con el titulo y una imagen.
+Despues de eso lo que hace es un slider*/
