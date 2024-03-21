@@ -12,23 +12,18 @@ const Plataformas = () => {
               <div className="swiper-container image-slider">
                 <div className="swiper-wrapper">
                   <div className="swiper-slide">
-                    <img className="img-fluid" src="" alt="alternative" />
+                    <img className="img-fluid" src="" alt="carousel" />
                   </div>
                   <div className="swiper-slide">
-                    <img className="img-fluid" src="" alt="alternative" />
+                    <img className="img-fluid" src="" alt="Netflix" />
                   </div>
                   <div className="swiper-slide">
-                    <img className="img-fluid" src="" alt="alternative" />
+                    <img className="img-fluid" src="" alt="spotify" />
                   </div>
                   <div className="swiper-slide">
-                    <img className="img-fluid" src="" alt="alternative" />
+                    <img className="img-fluid" src="" alt="Star+" />
                   </div>
-                  <div className="swiper-slide">
-                    <img className="img-fluid" src="" alt="alternative" />
-                  </div>
-                  <div className="swiper-slide">
-                    <img className="img-fluid" src="" alt="alternative" />
-                  </div>
+                  
                 </div>
               </div>
             </div>
